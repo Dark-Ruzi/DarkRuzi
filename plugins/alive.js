@@ -1,6 +1,5 @@
 const {cmd , commands} = require('../command')
-const s = require('../config');
-
+const config = require('../config')
 
 cmd({
     pattern: "alive",
