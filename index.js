@@ -28,6 +28,7 @@ const util = require("util");
 const { sms, downloadMediaMessage } = require("./lib/msg");
 const axios = require("axios");
 const { File } = require("megajs");
+const { default: fetch } = import('node-fetch');
 
 const ownerNumber = config.OWNER_NUM;
 
